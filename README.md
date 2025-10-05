@@ -33,7 +33,7 @@ through GitHub Actions.
 ## 🚀 Quick start (local)
 
 1. **Clone the repo**
-bash git clone [https://github.com/]<YOUR_USERNAME>/base-swap.git cd base-swap
+bash git clone https://github.com/dr11ve/swap-on-Base.git cd base-swap
 2. **Install dependencies**
 bash npm ci
 3. **Create a private `.env` file**
