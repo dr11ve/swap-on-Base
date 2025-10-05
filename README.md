@@ -104,22 +104,3 @@ logic, add more tokens, or expand the workflow (e.g., send a Discord notificatio
 on success).
 
 Happy swapping! 🚀
-3️⃣ package.json
-{
-  "name": "base-swap",
-  "version": "1.0.0",
-  "description": "Swap USDC/USDT → ETH on Base via the Universal Relay Router",
-  "main": "src/swap-base.js",
-  "type": "module",
-  "scripts": {
-    "swap": "node src/swap-base.js"
-  },
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "@uniswap/router-sdk": "^2.0.0",
-    "@uniswap/sdk-core": "^4.0.0",
-    "dotenv": "^16.4.5",
-    "ethers": "^6.12.1"
-  }
-}
