@@ -1,0 +1,16 @@
+[
+  {
+    "inputs": [
+      {
+        "components": [
+          { "internalType": "bytes", "name": "command", "type": "bytes" },
+          { "internalType": "bytes", "name": "inputs", "type": "bytes" }
+        ],
+        "internalType": "struct IUniversalRouter.Route[]",
+        "name": "routes",
+        "type": "tuple[]"
+      },
+      { "internalType": "bytes", "name": "msgValue", "type": "bytes" }
+    ],
+    "name": "execute",
+    "outputs": [{ "internalType": "bytes", "name": "result", "type
